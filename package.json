@@ -11,10 +11,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/connect-mongodb-session": "^2.4.7",
+    "@types/express-session": "^1.18.1",
+    "connect-mongodb-session": "^5.0.0",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
+    "express-session": "^1.18.1",
     "mongoose": "^8.13.1",
     "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
     "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.0",
+    "@types/passport": "^1.0.17",
+    "@types/passport-github2": "^1.2.9",
+    "typescript": "^5.8.2"
   }
 }
